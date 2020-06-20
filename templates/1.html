@@ -22,8 +22,8 @@
        <p> Здесь вы можете задать мне вопрос! Обязательно укажите имя и адрес почты, чтобы я смог дать ответ!</p>
     </div>
 
-    <form>
-        <fieldset>
+    <form action='/answer'autocomplete = off method='POST'>
+        <fieldset class = 'text'>
         <legend>Задайте ваш вопрос</legend>
         <p><label for="name">Имя </label><input type="text" id="name" name =‘name’></p>
         <p><label for="email">E-mail </label><input type="email" id="email" name =‘email’></p>
