@@ -12,6 +12,7 @@ def go():
         file_object.write(',')
         file_object.write('answer')
         file_object.write("\n")
+
     return render_template('1.html')
 
 @app.route('/answer', methods=['POST'])
