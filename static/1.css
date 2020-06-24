@@ -20,3 +20,50 @@
 	background: #ddd;
 	color: black;
 }
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 17px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.f1{
+    text-align: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.im{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.im__h1 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.im_content{
+    max-width: 75%;
+}
+
+.text{
+    color: #f2f2f2;
+    font-size: 17px;
+}
+
+footer{
+    background-color: #333;
+    padding: 0
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="css/1.css">
+        <title>Мое веб-приложение на flask</title>
+
+    </head>
+    <body>
+
+        <div class = "navbar">
+            <a href = "1.html">Главная</a>
+            <a>Мое веб-приложение на flask </a>
+            <a href="https://skillfactory.ru/">Контакты </a>
+        </div>
+        <section class ="f1">
+            <form action="/answer2" autocomplete = off method="POST">
+            <fieldset class = "text">
+                <legend>Сортировка:</legend>
+                <p><label for="string">Строка <em> </em></label><input type="text" id="string" name="string"></p>
+            </fieldset>
+
+            <p class ="text"><label>Отсортированная строка </label>{{ans}}</p>
+            <p><input type="submit" value="Сортировать"></p>
+            </form>
+        </section>
+
+
+
+
+
+    </body>
+</html>
