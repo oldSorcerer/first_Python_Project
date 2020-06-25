@@ -13,7 +13,6 @@ def sortstr(Y):
         Y[j + 1] = b
     return Y
 
-
 @app.route("/")
 def go():
     filename = "programm.csv"
@@ -24,8 +23,15 @@ def go():
         file_object.write(",")
         file_object.write("answer")
         file_object.write("\n")
-
     return render_template("1.html")
+
+@app.route("/1.html")
+def go_1():
+  return render_template("1.html")
+
+@app.route("/flask.html")
+def go_2():
+    return render_template("flask.html")
 
 @app.route("/answer", methods=["POST"])
 def nn():
@@ -41,7 +47,6 @@ def nn():
         file_object.write(",")
         file_object.write(answer)
         file_object.write("\n")
-
     return render_template("1.html")
 
 @app.route("/answer2", methods=["POST"])
